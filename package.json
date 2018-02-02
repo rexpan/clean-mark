@@ -55,10 +55,10 @@
     "url": "git://github.com/croqaz/clean-mark.git"
   },
   "scripts": {
-    "format": "npx prettier --write lib/*.js && npx standard --fix lib/**.js",
-    "lint": "npx standard lib/**.js",
-    "start": "npx micro server.js",
-    "test": "npx mocha $(find . -name './test/*.test.js')"
+    "format": "prettier --write lib/*.js && npx standard --fix lib/**.js",
+    "lint": "standard lib/**.js",
+    "start": "micro server.js",
+    "test": "mocha $(find . -name './test/*.test.js')"
   },
   "version": "0.5.1"
 }
